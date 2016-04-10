@@ -54,7 +54,7 @@ app.use(mountPath, api);
 
 // Parse Server plays nicely with the rest of your web routes
 app.get('/', function(req, res) {
-  res.status(200).send('Make sure to star the parse-server repo on GitHub!');
+  res.status(200).send('Push Notification Server for LogicalAddress!');
 });
 
 var port = process.env.PORT || 1337;
